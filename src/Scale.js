@@ -5,8 +5,8 @@ class Scale extends Component {
     super(props);
 
     this.USB_FILTERS = [
-      { vendorId: 0x0922, productId: 0x8003 }, // 10lb scale
-      { vendorId: 0x0922, productId: 0x8004 } // 25lb scale
+      { vendorId: 0x0922, productId: 0x8009 }, // 10lb scale
+     
     ];
 
     this.UNIT_MODES = { 2: "g", 11: "oz" };
